@@ -14,7 +14,10 @@ class HomePage extends StatelessWidget {
               style: const TextStyle(fontWeight: FontWeight.bold)),
         ),
       ),
-      drawer: Drawer(),
+      drawer: Drawer(
+          child: Center(
+              child: Text("Inside Drawer",
+                  style: const TextStyle(fontWeight: FontWeight.bold)))),
     );
   }
 }
